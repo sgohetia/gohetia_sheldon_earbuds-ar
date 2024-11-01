@@ -10,10 +10,14 @@ No installation required
 
 No history required
 
+## Usage
+
+Open the index file in your browser of choice.
+
 ## Credits
 
-Sheldon Gohetia
+Sheldon P. Gohetia
 
 ## License
 
-MIT License
+MIT - see license file for more information.
