@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Sheldon SynthArtistry EarBuds</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="css/main.css" rel="stylesheet" />
+    <!-- link to greensock main library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="model-title">
+        SHELDON GOHETIA - <span>AR EARBUDS ARRAY</span>
+      </h2>
+      <model-viewer
+        id="model"
+        src="model/earbuds-ar.gltf"
+        ar
+        ar-modes="webxr scene-viewer quick-look"
+        camera-controls
+        tone-mapping="aces"
+        poster="images/poster.webp"
+        shadow-intensity="0.89"
+        shadow-softness="1"
+        exposure="0.86"
+      >
+        <button
+          class="Hotspot"
+          slot="hotspot-1"
+          data-position="-2.764257574760214m 0.9707159853122245m -0.15986850389742857m"
+          data-normal="-0.41745762081202403m -0.26241621806119847m -0.8699809557251365m"
+          data-visibility-attribute="visible"
+        >
+          <div class="HotspotAnnotation" id="hotspot-1"></div></button
+        ><button
+          class="Hotspot"
+          slot="hotspot-2"
+          data-position="-2.646602490265493m 0.877444614784656m -0.24654080470614134m"
+          data-normal="0.7518980089045002m -0.6375443597233766m -0.1678885749250326m"
+          data-visibility-attribute="visible"
+        >
+          <div class="HotspotAnnotation" id="hotspot-2"></div></button
+        ><button
+          class="Hotspot"
+          slot="hotspot-3"
+          data-position="-2.430369658035731m 0.30471365889538404m 0.08564078632318572m"
+          data-normal="-0.001596227435335722m 0.007387797761936529m -0.9999714358431462m"
+          data-visibility-attribute="visible"
+        >
+          <div class="HotspotAnnotation" id="hotspot-3"></div></button
+        ><button
+          class="Hotspot"
+          slot="hotspot-4"
+          data-position="-2.419607395878385m 0.08804497247043758m 0.08550938139229708m"
+          data-normal="-1.691409959579644e-8m -1.2830133005619343e-8m -0.9999999999999998m"
+          data-visibility-attribute="visible"
+        >
+          <div class="HotspotAnnotation" id="hotspot-4"></div></button
+        ><button
+          class="Hotspot"
+          slot="hotspot-5"
+          data-position="-2.4433372771197197m 0.26525710838599015m 0.15800363000582235m"
+          data-normal="0.03978092059026761m -0.03347324511605298m 0.9986475956103794m"
+          data-visibility-attribute="visible"
+        >
+          <div class="HotspotAnnotation" id="hotspot-5"></div></button
+        ><button
+          class="Hotspot"
+          slot="hotspot-6"
+          data-position="-2.618556017681538m 1.034452324389439m 0.1907643182943838m"
+          data-normal="0.015167235538937993m -0.04710121567965118m 0.9987749648682658m"
+          data-visibility-attribute="visible"
+        >
+          <div class="HotspotAnnotation" id="hotspot-6"></div>
+        </button>
+      </model-viewer>
+    </div>
+    <!-- Loads <model-viewer> for browsers: -->
+    <script
+      type="module"
+      src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"
+    ></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
