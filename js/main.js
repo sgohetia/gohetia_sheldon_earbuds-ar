@@ -49,7 +49,7 @@
         const imgElement = document.createElement("img");
         imgElement.src = infobox.image;
         imgElement.alt = infobox.title;
-        imgElement.style.width = "150px";
+        imgElement.style.width = "230px";
         imgElement.style.height = "auto";
         annotation.appendChild(imgElement);
 
